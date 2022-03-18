@@ -1,0 +1,2 @@
+keytool -genkey -alias Med -keyalg RSA -keystore Med.jks -keysize 2048
+keytool -export -alias Med -keystore Med.jks -rfc -file publickey.cert
